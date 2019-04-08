@@ -1,0 +1,54 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: lightgray;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Merriweather', serif;
+}
+.item1 { 
+    grid-area: main;
+    padding: 10px;
+}
+.item2 { 
+    grid-area: right; 
+
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'main main main right right';
+    padding: 10px;
+}
+
+h1{
+    padding: 10px;
+}
+.grid-container > div {
+  text-align: left;
+  padding: 20px 0;
+  font-size: 15px;
+  margin: 15px;
+}

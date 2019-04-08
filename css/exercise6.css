@@ -1,0 +1,39 @@
+        body {
+            font-family: Arial;
+            background-color: #E5E5E5;  }
+    
+        h1 {
+            color: #E8A422;
+            background-color: #E5E5E5; 
+            padding: 20px; 
+            letter-spacing: .2em; 
+            text-transform: uppercase;
+            font-family: 'Indie Flower', cursive;  }
+        
+        h2 {
+            color: #535353;
+            background-color: #E5E5E5;
+            padding: 10px; }
+
+        h3 {    
+            color: #535353;
+            background-color: #e5e5e5;
+            padding-right: 20px;
+            padding-left: 20px   }
+        p {
+            padding-left: 20px;
+            padding-right: 20px;
+            line-height: 1.6em;
+            font-family: "Courier New", Courier, monospace; }
+        a:link { 
+            color: lightyellow;
+            text-decoration: none; }
+
+        a:visited {
+            color: orange;
+            text-decoration: none;  }
+
+        a:hover {
+            color:cornsilk;
+            text-decoration: none; }
+
